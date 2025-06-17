@@ -47,7 +47,7 @@ export default function App({ mode, setMode }) {
 
   return (
     <Container sx={{ mt: 4 }}>
-      <ThemeToggle mode={mode} setMode={setMode} />
+  <ThemeToggle mode={mode} setMode={setMode} />
 
       <Typography
         variant="h3"
@@ -105,7 +105,9 @@ export default function App({ mode, setMode }) {
           deleteTodo={deleteTodo}
           toggleComplete={toggleComplete}
         />
+            
       </Box>
     </Container>
+    
   );
 }
